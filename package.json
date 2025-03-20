@@ -1,0 +1,27 @@
+{
+  "name": "product-categorizer",
+  "version": "1.0.0",
+  "description": "Product categorization system for supermarket items",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guisandroni/challenge01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guisandroni/challenge01/issues"
+  },
+  "homepage": "https://github.com/Guisandroni/challenge01#readme",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
